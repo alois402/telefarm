@@ -150,9 +150,9 @@ export default function Home() {
             solutions.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Button asChild size="lg" className="bg-green-600 hover:bg-green-700">
-              <Link href="/register">Get Started</Link>
-            </Button>
+          <Button asChild size="lg" className="bg-white text-green-600 hover:bg-gray-100">
+            <Link href="/login?tab=register">Get Started Today</Link>
+          </Button>
             <Button
               asChild
               size="lg"
